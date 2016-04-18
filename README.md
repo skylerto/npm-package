@@ -60,3 +60,31 @@ app/
 
 22 directories, 9 files
 ```
+
+a package.json that looks like:
+
+```
+{
+  "name": "app",
+  "version": "0.0.1",
+  "description": "%Add a package description%",
+  "main": "index.js",
+  "scripts": {
+    "test": "./scripts/test",
+    "run": "./scripts/run"
+  },
+  "bin": {
+    "app": "index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+%add your git url%"
+  },
+  "author": "%add author info%",
+  "license": "MIT",
+  "homepage": "%add git url%#readme",
+  "devDependencies": {
+    "mocha": "*"
+  }
+}
+```
