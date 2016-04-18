@@ -1,5 +1,6 @@
 const fs = require('fs');
 
+
 function rewrite(file){
   console.log(file);
   fs.readFile(file, 'utf8', (err, data) => {
@@ -15,6 +16,7 @@ function rewrite(file){
     });
   });
 }
+
 
 
 /**
@@ -42,13 +44,13 @@ function parse(path, callback){
         }
         if(stats.isDirectory()){
           console.log(file + ' is a directory!');
-          parse(file, callback);
+          parse(`${path}/${file}`, callback);
 
         } else {
           if (callback) {
            callback(file);
           } else {
-            rewrite(file);
+            //rewrite(file);
           }
         }
       });
