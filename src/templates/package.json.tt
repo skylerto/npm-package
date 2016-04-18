@@ -1,0 +1,23 @@
+{
+  "name": "%PACKAGE-NAME%",
+  "version": "0.0.1",
+  "description": "%Add a package description%",
+  "main": "index.js",
+  "scripts": {
+    "test": "./scripts/test",
+    "run": "./scripts/run"
+  },
+  "bin": {
+    "%PACKAGE-NAME%": "index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+%add your git url%"
+  },
+  "author": "%add author info%",
+  "license": "MIT",
+  "homepage": "%add git url%#readme",
+  "devDependencies": {
+    "mocha": "*"
+  }
+}
