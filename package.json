@@ -6,6 +6,9 @@
   "scripts": {
     "test": "./scripts/test"
   },
+  "bin": {
+    "pack": "index.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/skylerto/npm-package.git"
