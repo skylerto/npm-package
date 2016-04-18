@@ -4,8 +4,8 @@
   "description": "%Add a package description%",
   "main": "index.js",
   "scripts": {
-    "test": "./scripts/test",
-    "run": "./scripts/run"
+    "test": "./script/test",
+    "run": "./script/run"
   },
   "bin": {
     "%PACKAGE-NAME%": "index.js"

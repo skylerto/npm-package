@@ -4,7 +4,8 @@
   "description": "An NPM package structure generator.",
   "main": "index.js",
   "scripts": {
-    "test": "./scripts/test"
+    "test": "./script/test",
+    "doc": "./script/doc"
   },
   "repository": {
     "type": "git",
@@ -23,6 +24,17 @@
   },
   "homepage": "https://github.com/skylerto/npm-package#readme",
   "devDependencies": {
-    "mocha": "2.4.5"
+    "jsdoc": "3.4.0",
+    "minami": "1.1.1",
+    "mocha": "2.4.5",
+    "yuidoc-bootstrap-theme": "1.0.6",
+    "yuidoc-dropkick-theme": "0.0.8",
+    "yuidoc-lucid-theme": "0.1.2",
+    "yuidocjs": "0.10.0"
+  },
+  "dependencies": {
+    "async": "2.0.0-rc.3",
+    "promise": "7.1.1",
+    "q": "1.4.1"
   }
 }
