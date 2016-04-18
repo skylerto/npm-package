@@ -1,0 +1,92 @@
+{
+    "project": {},
+    "files": {
+        "src/templates/src/main.js": {
+            "name": "src/templates/src/main.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "src/Writer.js": {
+            "name": "src/Writer.js",
+            "modules": {},
+            "classes": {
+                "Writer": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        }
+    },
+    "modules": {},
+    "classes": {
+        "Writer": {
+            "name": "Writer",
+            "shortname": "Writer",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "file": "src/Writer.js",
+            "line": 6,
+            "description": "This is a writer class.",
+            "is_constructor": 1
+        }
+    },
+    "elements": {},
+    "classitems": [
+        {
+            "file": "src/templates/src/main.js",
+            "line": 1,
+            "description": "This is the main javascript file.\nPlace `module.exports = require('...');` for you package here.",
+            "class": "Writer"
+        },
+        {
+            "file": "src/Writer.js",
+            "line": 14,
+            "description": "Create a new writer class.",
+            "params": [
+                {
+                    "name": "path",
+                    "description": "the path to the directory",
+                    "type": "String",
+                    "optional": true
+                }
+            ],
+            "class": "Writer"
+        },
+        {
+            "file": "src/Writer.js",
+            "line": 46,
+            "description": "Parse over the files in the templates directory.\nCallback on a `${relpath}/${file}`",
+            "itemtype": "method",
+            "name": "parse",
+            "params": [
+                {
+                    "name": "callback",
+                    "description": "callback on each file.",
+                    "type": "Function",
+                    "optional": true
+                },
+                {
+                    "name": "pre",
+                    "description": "any additional path after `templates/`",
+                    "type": "String",
+                    "optional": true
+                }
+            ],
+            "class": "Writer"
+        }
+    ],
+    "warnings": [
+        {
+            "message": "Missing item type\nThis is the main javascript file.\nPlace `module.exports = require('...');` for you package here.",
+            "line": " src/templates/src/main.js:1"
+        },
+        {
+            "message": "Missing item type\nCreate a new writer class.",
+            "line": " src/Writer.js:14"
+        }
+    ]
+}
