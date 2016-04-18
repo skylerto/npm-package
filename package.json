@@ -1,5 +1,5 @@
 {
-  "name": "npm-package",
+  "name": "npm-packager",
   "version": "0.0.1",
   "description": "An NPM package structure generator.",
   "main": "index.js",

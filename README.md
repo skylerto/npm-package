@@ -8,7 +8,7 @@ Pack is an npm package generator.
 To install, get the code from github, or npm:
 
 ```
-$ npm install -g npm-package
+$ npm install -g npm-packager
 ```
 
 ## Usage
@@ -21,13 +21,34 @@ $ pack app
 ## What You Get
 
 When you create a new package, you get a few files generated for you:
+
 ```
 sky dev $ pack app >> /dev/null
-sky dev $ tree app/
+sky dev $ tree -L 2 -a app/
 app/
-├── CONTRIBUTE.md
+├── .gitignore
+├── .travis.yml
 ├── README.md
 ├── index.js
+├── node_modules
+│   ├── .bin
+│   ├── commander
+│   ├── debug
+│   ├── diff
+│   ├── escape-string-regexp
+│   ├── glob
+│   ├── graceful-fs
+│   ├── growl
+│   ├── inherits
+│   ├── jade
+│   ├── lru-cache
+│   ├── minimatch
+│   ├── minimist
+│   ├── mkdirp
+│   ├── mocha
+│   ├── ms
+│   ├── sigmund
+│   └── supports-color
 ├── package.json
 ├── script
 │   ├── run
@@ -37,7 +58,5 @@ app/
 └── test
     └── test.js
 
-    3 directories, 8 files
+22 directories, 9 files
 ```
-
-
