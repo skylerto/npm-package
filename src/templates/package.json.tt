@@ -19,6 +19,6 @@
   "homepage": "%add git url%#readme",
   "devDependencies": {
     "mocha": "*",
-    "chai": *
+    "chai": "*"
   }
 }
