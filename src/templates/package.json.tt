@@ -18,6 +18,7 @@
   "license": "MIT",
   "homepage": "%add git url%#readme",
   "devDependencies": {
-    "mocha": "*"
+    "mocha": "*",
+    "chai": *
   }
 }
